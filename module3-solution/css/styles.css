@@ -1,0 +1,76 @@
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+	background-color: #E5E5E5;
+}
+
+/***** HEADER *****/
+#header-nav {
+	border: 0;
+	border-radius: 0;
+	background-color: #878787;
+}
+.navbar-brand {
+  padding-top: 7px;
+}
+.navbar-brand h1 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #A6A6A6;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -37px;
+}
+/***** END HEADER *****/
+
+/***** MAIN CONTENT *****/
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 27px;
+	margin-bottom: 25px;
+}
+.menu-item-title {
+	text-align: center;
+	font-weight: bold;
+	color: #090909;
+}
+.box {
+	background-color: #A1A1A1;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+/***** END MAIN CONTENT *****/
+
+@media (max-width: 767px) {
+	.col-xxs-12 {
+		position: relative;
+  		min-height: 1px;
+  		padding-right: 15px;
+  		padding-left: 15px;
+  		float: left;
+  		width: 100%;
+	}
+}
